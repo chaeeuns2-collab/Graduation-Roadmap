@@ -70,10 +70,6 @@
         "ko": "수료 요건",
         "en": "Course Completion Requirements"
       },
-      "join": {
-        "ko": "재학 중 충족",
-        "en": "Met while enrolled"
-      },
       "label": {
         "ko": "수료",
         "en": "Course Completion"
