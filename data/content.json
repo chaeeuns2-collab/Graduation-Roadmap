@@ -23,10 +23,6 @@
       "ko": "재학",
       "en": "Enrolled"
     },
-    "startSub": {
-      "ko": "수업연한 이내",
-      "en": "Within the required period of study"
-    },
     "routeA": {
       "ko": "재학 중 트랙",
       "en": "In-Enrollment Track"
@@ -273,11 +269,7 @@
       "label": {
         "ko": "지도교수 승인신청",
         "en": "Advisor Approval Application"
-      },
-      "tagline": {
-        "ko": "입학 후 1년 이내 제출",
-        "en": "Submit within 1 year of admission"
-      },
+       },
       "hover": {
         "ko": "입학 후 1년(두 번째 학기) 안에 제출해요",
         "en": "Submit within one year of admission (by your second semester)"
@@ -338,10 +330,6 @@
         "ko": "논문연구계획서 제출",
         "en": "Thesis Research Plan"
       },
-      "tagline": {
-        "ko": "3학기에 온라인 업로드",
-        "en": "Upload online in your 3rd semester"
-      },
       "hover": {
         "ko": "미제출 시 논문 심사 접수와 연구실적물 등록(박사)이 안 돼요",
         "en": "Without it you cannot register research output or apply for the thesis review"
@@ -352,14 +340,14 @@
       },
       "facts": {
         "ko": [
-          "석·박사 3학기 | 제출 대상 (연계 2학기 · 통합 7학기)",
+          "석·박사 3학기 | 제출 대상 (학석사 연계 2학기 · 석박통합 7학기)",
           "4월 초 · 10월 초 | 업로드 제출기한",
-          "온라인 업로드 | 학과 제출 없음"
+          "온라인 업로드 | 통합정보시스템(SUIS)"
         ],
         "en": [
           "3rd semester | Master's · Ph.D. (combined B.S.-M.S. 2nd, integrated 7th)",
           "Early Apr · Early Oct | Upload deadline",
-          "Online upload | No department submission"
+          "Online upload | SUIS System"
         ]
       },
       "body": {
@@ -409,10 +397,6 @@
       "label": {
         "ko": "학위자격시험",
         "en": "Degree Qualifying Exam"
-      },
-      "tagline": {
-        "ko": "구술시험",
-        "en": "Oral exam"
       },
       "linkLabel": {
         "ko": "바로가기",
@@ -471,10 +455,6 @@
       "label": {
         "ko": "(박사)연구실적물 제출",
         "en": "Research Output (Ph.D.)"
-      },
-      "tagline": {
-        "ko": "박사과정 필수 · ZIP 업로드",
-        "en": "Required for Ph.D. · ZIP upload"
       },
       "hover": {
         "ko": "박사과정만 해당돼요",
@@ -559,10 +539,6 @@
       "label": {
         "ko": "학위청구논문",
         "en": "Degree Thesis"
-      },
-      "tagline": {
-        "ko": "심사 서류 제출 · 논문 심사",
-        "en": "Submit review documents · thesis review"
       },
       "linkLabel": {
         "ko": "바로가기",
