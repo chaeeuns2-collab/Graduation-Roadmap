@@ -438,7 +438,7 @@
         "ko": [
           "@응시자격: 3개 학기 이상 등록하고 18학점 이상 취득한 자 (논문연구 I, II 제외)",
           "@학석사연계과정: 2개 학기 이상 등록하고 15학점 이상 취득한 자",
-          "@시험일시: 3, 9월 접수 후 4, 10월 중 연구실 지정일에 실시",
+          "@시험일시: 3, 9월 접수 후 4, 10월 중",
           "@시험방법: 구술시험",
           "@접수: 통합정보시스템(SUIS) → (학생) 통합정보시스템 학사 → 졸업 → 학위자격시험 → 접수_학위자격시험",
           "@ 논문연구계획서 등록: 통합정보시스템(SUIS) 학사 > 졸업 > 논문 > 등록_논문연구계획서`에 논문연구계획서 반드시 등록",
@@ -450,7 +450,7 @@
         "en": [
           "@Eligibility: Registered for 3 or more semesters and earned 18 or more credits (excluding Thesis Research I and II)",
           "@Combined B.S.–M.S. program: Registered for 2 or more semesters and earned 15 or more credits",
-          "@Schedule: Apply in March or September; the exam is held in April or October on a date set by your lab",
+          "@Schedule: Apply in March or September; the exam is held in April or October",
           "@Format: Oral exam",
           "@Application: SUIS System → Graduation → Degree  Qualification Exam → Apply_Degree Qualification Exam",
           "@ Thesis research plan: You must register your thesis research plan under Academic Affairs > Graduation > Thesis > Register_Thesis Research Plan",
