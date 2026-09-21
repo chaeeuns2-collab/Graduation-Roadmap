@@ -343,7 +343,7 @@
         "en": "Upload online in your 3rd semester"
       },
       "hover": {
-        "ko": "미제출 시 연구실적물 등록과 논문 심사 접수가 안 돼요",
+        "ko": "미제출 시 논문 심사 접수와 연구실적물 등록(박사)이 안 돼요",
         "en": "Without it you cannot register research output or apply for the thesis review"
       },
       "tip": {
@@ -413,10 +413,6 @@
       "tagline": {
         "ko": "구술시험",
         "en": "Oral exam"
-      },
-      "hover": {
-        "ko": "수료 전 재학중에 응시 가능해요",
-        "en": "You can take it while enrolled, before completion"
       },
       "linkLabel": {
         "ko": "바로가기",
