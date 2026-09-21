@@ -1,0 +1,694 @@
+{
+  "_안내": "이 파일의 글을 고치면 페이지에 반영돼요. ko는 한국어, en은 영어예요. en을 비워 두면 English 화면에도 한국어가 보여요. 자세한 방법은 README.md를 보세요.",
+  "updatedAt": "2026-09-21",
+  "mascotImg": "images/technyong.png",
+  "page": {
+    "eyebrow": {
+      "ko": "SEOULTECH · 일반대학원 인공지능응용학과",
+      "en": "SEOULTECH · Graduate School · Department of Applied Artificial Intelligence"
+    },
+    "title": {
+      "ko": "대학원 수료 및 졸업 로드맵",
+      "en": "Graduate Completion & Graduation Road Map"
+    },
+    "subtitle": {
+      "ko": "",
+      "en": ""
+    },
+    "greeting": {
+      "ko": "졸업까지 함께 가요!",
+      "en": "Let's get to graduation together!"
+    },
+    "startLabel": {
+      "ko": "재학",
+      "en": "Enrolled"
+    },
+    "startSub": {
+      "ko": "수업연한 이내",
+      "en": "Within the required period of study"
+    },
+    "routeA": {
+      "ko": "재학 중 트랙",
+      "en": "In-Enrollment Track"
+    },
+    "routeADesc": {
+      "ko": "재학 중에 학위자격시험 응시 · 학위청구논문 제출",
+      "en": "Take the Qualifying Exam and submit the degree thesis while enrolled"
+    },
+    "routeB": {
+      "ko": "수료 트랙",
+      "en": "Completion Track"
+    },
+    "routeBDesc": {
+      "ko": "수료 후 학위청구논문 진행(학위자격시험은 수료 전 응시 가능)",
+      "en": "Submit the degree thesis after course completion (the Qualifying Exam can be taken before completion)"
+    },
+    "directLabel": {
+      "ko": "재학 중 바로 진행",
+      "en": "Proceed directly while enrolled"
+    },
+    "detourLabel": {
+      "ko": "재학 중 진행하지 않으면",
+      "en": "If not done while enrolled"
+    },
+    "goalLabel": {
+      "ko": "학위 수여",
+      "en": "Degree Conferral"
+    },
+    "goalSub": {
+      "ko": "졸업을 축하합니다!",
+      "en": "Congratulations on graduating!"
+    },
+    "footnote": {
+      "ko": "본 페이지는 학과 안내용 요약입니다. 세부 사항은 대학원 학칙과 공지사항을 우선합니다.",
+      "en": "This page is a summary for department guidance. For details, the Graduate School regulations and official notices take precedence."
+    }
+  },
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "rule",
+      "icon": "cert",
+      "link": "https://www.seoultech.ac.kr/life/info/graduate/finish",
+      "badge": {
+        "ko": "수료 요건",
+        "en": "Course Completion Requirements"
+      },
+      "join": {
+        "ko": "재학 중 충족",
+        "en": "Met while enrolled"
+      },
+      "label": {
+        "ko": "수료",
+        "en": "Course Completion"
+      },
+      "tagline": {
+        "ko": "수업연한 · 수료학점 · 평점 충족",
+        "en": "Period of study · credits · GPA"
+      },
+      "linkLabel": {
+        "ko": "바로가기",
+        "en": "Go to page"
+      },
+      "tip": {
+        "ko": "수업연한 안에 수료학점을 채우지 못하면 초과학기 등록금이 생겨요. 학기마다 이수 학점을 점검하세요!",
+        "en": "If you don't earn the required credits within the period of study, extra-semester tuition applies. Check your credits every semester!"
+      },
+      "facts": {
+        "ko": [
+          "2 · 2 · 3.5년 | 수업연한 (석사 · 박사 · 석박통합('25~))",
+          "24 · 36 · 54학점 | 수료학점 (석사 · 박사 · 석박통합('25~))",
+          "3.0 (B°) 이상 | 전체 과목 성적 평점평균"
+        ],
+        "en": [
+          "2 · 2 · 3.5 yrs | Required period of study (Master's · Ph.D. · Integrated M.S.–Ph.D. ('25~))",
+          "24 · 36 · 54 credits | Credits for completion (Master's · Ph.D. · Integrated ('25~))",
+          "3.0 (B°) or higher | Cumulative GPA across all courses"
+        ]
+      },
+      "body": {
+        "ko": [
+          "## 수료 요건",
+          "- 학칙 제41조에 따른 **수업연한**을 충족한 경우 (석사 2년, 박사 2년, 석박통합 3.5년('25년부터), 4년('24 이전))",
+          "- 학위과정 **수료학점**을 이수하고 (석사 24학점, 박사 36학점, 석박통합 54학점('25년부터),60학점('24 이전)), 전체 과목의 성적 평점평균이 **3.0(B°) 이상**인 경우",
+          "- 정해진 선 이수과목을 이수한 경우",
+          "- 지정된 필수 교과목을 이수한 경우",
+          "- 외국인학생의 경우 입학전형 시 정한 별도의 기준을 충족하는 경우",
+          "- 상시 연구활동종사자 안전교육을 이수하고 수료증을 발급받은 경우",
+          "※ (초과학기자) 수업연한 이내에 수료학점을 이수하지 못한 학생이 미달된 수료학점을 취득하려면 수강신청 학점에 따라 등록금을 납부해야 합니다. 3학점까지는 해당학기 등록금의 1/2, 4학점 이상은 해당학기 등록금 전액"
+        ],
+        "en": [
+          "## Completion Requirements",
+          "- Meet the **required period of study** under Article 41 of the University Regulations (Master's 2 years, Ph.D. 2 years, Integrated M.S.–Ph.D. 3.5 years (from '25), 4 years (before '24))",
+          "- Earn the **credits required for completion** (Master's 24, Ph.D. 36, Integrated M.S.–Ph.D. 54 (from '25), 60 (before '24)) with a cumulative GPA of **3.0 (B°) or higher** across all courses",
+          "- Complete the designated prerequisite courses",
+          "- Complete the designated required courses",
+          "- International students: meet any additional criteria set at admission",
+          "- Complete the safety training for regular research personnel and obtain the certificate",
+          "※ (Students in extra semesters) Students who did not earn the required credits within the period of study must pay tuition based on the credits they register for: up to 3 credits, 1/2 of that semester's tuition; 4 credits or more, the full tuition for that semester"
+        ]
+      },
+      "files": []
+    },
+    {
+      "id": "s2",
+      "kind": "rule",
+      "icon": "calendar",
+      "link": "https://www.seoultech.ac.kr/life/info/graduate/finishreg",
+      "label": {
+        "ko": "수료 후 등록",
+        "en": "Post-Completion Registration"
+      },
+      "tagline": {
+        "ko": "논문 준비 기간 학교시설 이용",
+        "en": "Use campus facilities while preparing your thesis"
+      },
+      "badge": {
+        "ko": "수료생 선택 사항 · 수료 트랙",
+        "en": "Optional for completed students · Completion Track"
+      },
+      "join": {
+        "ko": "필수 아님",
+        "en": "Not required"
+      },
+      "linkLabel": {
+        "ko": "바로가기",
+        "en": "Go to page"
+      },
+      "tip": {
+        "ko": "신청은 매학기 1월 · 7월이에요. 주임교수 · 지도교수 날인을 미리 받아두세요!",
+        "en": "Applications open every January and July. Get your program chair's and advisor's stamps in advance!"
+      },
+      "facts": {
+        "ko": [
+          "10% | 해당학기 등록금(수업료) 대비 납부액",
+          "1월 · 7월 | 매학기 신청 시기",
+          "대학원 행정실 제출 | 어의관 613호, 온라인 신청 후 날인 서식 제출"
+        ],
+        "en": [
+          "10% | Fee as a share of the semester's tuition",
+          "Jan · Jul | Application period each semester",
+          "Graduate School Office | Eoui-gwan Rm. 613 — submit the signed form after applying online"
+        ]
+      },
+      "body": {
+        "ko": [
+          "※ 수료 후 등록은 필수가 아니에요. 등록하지 않아도 학위자격시험을 볼 수 있어요.",
+          "@해당대상: 학위과정 수료생 중 논문 제출시한 미경과자로서 논문 준비 등을 위해 등록한 후 학교시설 등을 이용할 수 있음",
+          "@납부금액: 해당학기 등록금(수업료)의 10%",
+          "@신청시기: 매학기 1월, 7월",
+          "@신청방법: 통합정보시스템에서 온라인 신청 및 서식 출력 후 주임교수 및 지도교수 날인을 받아 대학원 행정실로 제출",
+          "## 이용범위",
+          "- 국가연구개발사업의 학생 연구원으로 참여 가능",
+          "- 도서관 이용 및 도서대출",
+          "- 차량 정기권 신청",
+          "- 재학생에 상응하는 각종 상해보험 등의 가입",
+          "- 그 밖의 총장이 인정하는 학교시설 이용"
+        ],
+        "en": [
+          "※ Post-completion registration is not required. You can take the Degree Qualifying Exam without registering.",
+          "@Eligibility: Students who have completed their degree coursework and whose thesis submission deadline has not passed may register to use university facilities while preparing their thesis",
+          "@Fee: 10% of the semester's tuition",
+          "@Application period: January and July each semester",
+          "@How to apply: Apply online in the SUIS System, print the form, have it stamped by your program chair and advisor, and submit it to the Graduate School Office",
+          "## Benefits",
+          "- Participate as a student researcher in national R&D projects",
+          "- Use the library and borrow books",
+          "- Apply for a campus parking pass",
+          "- Enroll in accident insurance equivalent to that of enrolled students",
+          "- Use other university facilities approved by the President"
+        ]
+      },
+      "files": []
+    },
+    {
+      "id": "s3",
+      "kind": "rule",
+      "icon": "rule",
+      "link": "",
+      "label": {
+        "ko": "박사과정 학과 내규",
+        "en": "Ph.D. Department Rules"
+      },
+      "tagline": {
+        "ko": "SCI · 우수 국제학술대회(S/A) 논문 총 2편 게재",
+        "en": "Publish a total of 2 papers in SCI journals or top international conferences (S/A)"
+      },
+      "badge": {
+        "ko": "박사과정 추가 요건",
+        "en": "Additional Ph.D. requirement"
+      },
+      "linkLabel": {
+        "ko": "바로가기",
+        "en": "Go to page"
+      },
+      "tip": {
+        "ko": "투고 전에 붙임 목록에서 학회가 S/A 등급인지 꼭 확인하세요.",
+        "en": "Before submitting, check the attached list to confirm the conference is S/A grade."
+      },
+      "facts": {
+        "ko": [
+          "총 2편 | SCI · 우수 국제학술대회(S/A) 게재",
+          "주저자 | 공동 1저자 등록도 인정",
+          "2024 | 한국정보과학회 우수학술대회 목록 기준"
+        ],
+        "en": [
+          "2 papers | SCI journals · top international conferences (S/A)",
+          "First author | Co-first authorship also counts",
+          "2024 | Based on the KIISE list of excellent conferences"
+        ]
+      },
+      "body": {
+        "ko": [
+          "## 제3장 대학원 학사운영",
+          "### 제9조(졸업)",
+          "인공지능응용학과 박사 과정생은 아래의 요건을 만족해야 졸업요건을 충족한 것으로 인정한다.",
+          "- ① SCI 및 BK21 Computer Science 분야 *우수 국제학술대회 (S/A 등급 포함) 총 2편 게재",
+          "- ② 주저자, 공동 1저자 등록 인정",
+          "* 우수 국제학술대회란 2024년 한국정보과학회 우수학술대회 목록에서 S/A 등급을 말함 (붙임 2024년 한국정보과학회 우수 학술대회 목록 참고)"
+        ],
+        "en": [
+          "## Chapter 3. Graduate Academic Affairs",
+          "### Article 9 (Graduation)",
+          "Ph.D. students in the Department of Applied Artificial Intelligence are deemed to have met the graduation requirements when they satisfy the following.",
+          "- ① Publish a total of 2 papers in SCI journals or *top international conferences in the BK21 Computer Science field (S/A grades included)",
+          "- ② First authorship and co-first authorship are recognized",
+          "* \"Top international conferences\" means S/A-grade conferences on the 2024 KIISE (Korean Institute of Information Scientists and Engineers) list of excellent conferences (see the attached 2024 KIISE list)"
+        ]
+      },
+      "files": [
+        {
+          "name": "SW분야우수학술대회목록_2024.pdf",
+          "path": "files/SW분야우수학술대회목록_2024.pdf",
+          "size": 239558
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "step",
+      "lane": "common",
+      "icon": "approve",
+      "link": "",
+      "label": {
+        "ko": "지도교수 승인신청",
+        "en": "Advisor Approval Application"
+      },
+      "tagline": {
+        "ko": "입학 후 1년 이내 제출",
+        "en": "Submit within 1 year of admission"
+      },
+      "hover": {
+        "ko": "입학 후 1년(두 번째 학기) 안에 제출해요",
+        "en": "Submit within one year of admission (by your second semester)"
+      },
+      "tip": {
+        "ko": "자필로 쓴 신청서는 반려돼요. 꼭 통합정보시스템에서 출력하세요.",
+        "en": "A handwritten form will be rejected - always print it from the SUIS System."
+      },
+      "facts": {
+        "ko": [
+          "입학 후 1년 이내 | 제출 시기 (두 번째 학기 이내)",
+          "4월 초 · 10월 초 | 학기별 제출 기간",
+          "학과 사무실 | 지도교수 날인 후 제출"
+        ],
+        "en": [
+          "Within 1 year | Deadline after admission (by your second semester)",
+          "Early Apr · Early Oct | Submission period each semester",
+          "Department office | Submit after your advisor stamps it"
+        ]
+      },
+      "body": {
+        "ko": [
+          "@제출시기: 입학 후 1년 이내 (두 번째 학기 이내)",
+          "@제출대상: 2025학년도 후기 이후 입학생 및 미제출 학생",
+          "@제출기간: 1학기 4월 초, 2학기 10월 초",
+          "@제출장소: 해당 학과 사무실",
+          "@제출서류: 지도교수 승인신청서",
+          "## 입력 및 제출방법",
+          "- 통합정보시스템(SUIS) 접속 → 학생포털(우측) → 통합정보시스템 → 로그인 → 학사 > 졸업 > 논문 > 신청_지도교수(학위) → 신청서 출력",
+          "- 시스템에서 출력한 지도교수 승인신청서에 지도교수 날인 후 학과로 제출",
+          "## 유의사항",
+          "- 지도교수는 해당 학생의 입학일을 기준으로 정년이 석사과정 4개 학기 이상, 박사과정 6개 학기 이상, 석·박사통합과정 8개 학기 이상 남은 본교의 조교수 이상 교원 중에서 선정",
+          "- 자필로 작성한 신청서는 반려처리 되므로, 반드시 통합정보시스템에서 신청",
+          "- 지도교수 미선정 시 추후 학위취득을 위한 학사 일정 진행 불가"
+        ],
+        "en": [
+          "@Deadline: Within one year of admission (by your second semester)",
+          "@Who must submit: Students admitted from Fall 2025 onward, and anyone who has not submitted yet",
+          "@Submission period: Early April (Spring), early October (Fall)",
+          "@Where to submit: Your department office",
+          "@Document: Advisor Approval Application form",
+          "## How to apply",
+          "- Go to the SUIS System → Student Portal (right side) → SUIS System → Log in → Academic Affairs > Graduation > Thesis > Apply_Advisor (Degree) → Print the application",
+          "- Have your advisor stamp the printed form and submit it to your department office",
+          "## Notes",
+          "- Your advisor must be an assistant professor or higher at SEOULTECH with, as of your admission date, at least 4 semesters left before retirement for a master's student, 6 semesters for a doctoral student, or 8 semesters for an integrated M.S.-Ph.D. student",
+          "- Handwritten applications are rejected; you must apply through the SUIS System",
+          "- Without an approved advisor you cannot proceed with the academic steps required for your degree"
+        ]
+      },
+      "files": []
+    },
+    {
+      "id": "s7",
+      "kind": "step",
+      "lane": "common",
+      "icon": "plan",
+      "link": "",
+      "label": {
+        "ko": "논문연구계획서 제출",
+        "en": "Thesis Research Plan"
+      },
+      "tagline": {
+        "ko": "3학기에 온라인 업로드",
+        "en": "Upload online in your 3rd semester"
+      },
+      "hover": {
+        "ko": "미제출 시 연구실적물 등록과 논문 심사 접수가 안 돼요",
+        "en": "Without it you cannot register research output or apply for the thesis review"
+      },
+      "tip": {
+        "ko": "제출 후에는 수정할 수 없어요. 제목까지 확인하고 올리세요.",
+        "en": "You cannot edit the plan after submitting it - check the title carefully before uploading."
+      },
+      "facts": {
+        "ko": [
+          "석·박사 3학기 | 제출 대상 (연계 2학기 · 통합 7학기)",
+          "4월 초 · 10월 초 | 업로드 제출기한",
+          "온라인 업로드 | 학과 제출 없음"
+        ],
+        "en": [
+          "3rd semester | Master's · Ph.D. (combined B.S.-M.S. 2nd, integrated 7th)",
+          "Early Apr · Early Oct | Upload deadline",
+          "Online upload | No department submission"
+        ]
+      },
+      "body": {
+        "ko": [
+          "@제출 대상자: 석사 및 박사 3학기, 학·석사연계 2학기, 석·박사통합 7학기 및 미제출자",
+          "@업로드 제출기한: 1학기 4월 초, 2학기 10월 초",
+          "## 입력 및 업로드 방법",
+          "- 통합정보시스템(SUIS) 접속 → 학생포털(우측) → 통합정보시스템 → 로그인 → 학사 > 졸업 > 논문 > 등록_논문연구계획서",
+          "- 연구계획서 정보 입력 (국문제목, 영문제목)",
+          "- 논문연구계획서 양식파일을 내려받아 작성한 후 파일 업로드 → 저장 (학과 제출 없음)",
+          "## 유의사항",
+          "- 제출 시기보다 늦어지는 경우에는 학위수여 시기가 늦어질 수 있음 (미제출 시 연구실적물(학위논문제출자격요건) 등록 및 논문 심사 접수 불가)",
+          "- 제출 후 수정 불가. 부득이하게 수정 필요시 각 대학원 담당자에게 연락 (일반대학원: 02-970-6794)",
+          "※ 제목을 변경할 경우 학사 > 졸업 > 논문 > 논문제목변경등록에서 변경",
+          "## 연구계획서 양식 내용",
+          "- 연구제목",
+          "- 연구자",
+          "- 1. 연구 목적 및 필요성",
+          "- 2. 연구 내용 및 방법 (2-1, 2-2, 2-3 …)",
+          "- 3. 연구추진 일정",
+          "- 참고 문헌"
+        ],
+        "en": [
+          "@Who must submit: Master's and Ph.D. students in their 3rd semester, combined B.S.-M.S. students in their 2nd, integrated M.S.-Ph.D. students in their 7th, and anyone who has not submitted yet",
+          "@Upload deadline: Early April (Spring), early October (Fall)",
+          "## How to upload",
+          "- Go to the SUIS System → Student Portal (right side) → SUIS System → Log in → Academic Affairs > Graduation > Thesis > Register_Thesis Research Plan",
+          "- Enter the plan information (title in Korean and in English)",
+          "- Download the research plan form, fill it in, upload the file and save (no department submission)",
+          "## Notes",
+          "- Submitting late can delay your degree conferral (without it you cannot register research output (a thesis submission requirement) or apply for the thesis review)",
+          "- The plan cannot be edited after submission. If a change is unavoidable, contact your graduate school office (General Graduate School: 02-970-6794)",
+          "※ To change the title, go to Academic Affairs > Graduation > Thesis > Register Thesis Title Change",
+          "## What the form contains",
+          "- Research title",
+          "- Researcher",
+          "- 1. Purpose and necessity of the research",
+          "- 2. Research content and methods (2-1, 2-2, 2-3 …)",
+          "- 3. Research schedule",
+          "- References"
+        ]
+      },
+      "files": []
+    },
+    {
+      "id": "s8",
+      "kind": "step",
+      "lane": "common",
+      "icon": "star",
+      "link": "",
+      "label": {
+        "ko": "(박사)연구실적물 제출",
+        "en": "Research Output (Ph.D.)"
+      },
+      "tagline": {
+        "ko": "박사과정 필수 · ZIP 업로드",
+        "en": "Required for Ph.D. · ZIP upload"
+      },
+      "hover": {
+        "ko": "박사과정만 해당돼요",
+        "en": "Ph.D. students only"
+      },
+      "tip": {
+        "ko": "면제 신청이나 장학생 신청에 낸 자료와 같은 자료는 인정되지 않아요.",
+        "en": "Materials already used for an exemption or a scholarship application cannot be reused."
+      },
+      "facts": {
+        "ko": [
+          "박사과정만 | 석사과정은 제출 대상 아님",
+          "4월 말 · 10월 말 | 제출 기간",
+          "ZIP 업로드 | 보고서 + 인정 기준 자료"
+        ],
+        "en": [
+          "Ph.D. only | Master's students do not submit",
+          "Late Apr · Late Oct | Submission period",
+          "ZIP upload | Report + qualifying materials"
+        ]
+      },
+      "body": {
+        "ko": [
+          "@제출 대상: 논문연구계획서 제출을 완료하고 학위논문 심사를 받고자 하는 박사과정 대학원생 (석사과정 학생은 제출 대상 아님)",
+          "@제출 기간: 1학기 4월 말, 2학기 10월 말",
+          "## 제출자료 (ZIP파일로 압축하여 업로드)",
+          "- 연구실적보고서 (학사 > 연구실적 > 연구실적보고서 > 연구실적 등록)",
+          "- 연구실적물 인정기준에 해당하는 자료",
+          "## 인정 기준",
+          "### 1. 등재지 (Indexed Journals)",
+          "- 해당 전공분야의 SCIE, SSCI, A&HCI, SCOPUS 등재지",
+          "※ 등재지 등재 기준은 학위청구논문심사원 제출 직전년도 등재리스트를 기준으로 함",
+          "### 2. 등재 언어 (Indexed Language)",
+          "- 등재 분류상에 제시된 언어사용 논문에 한함 (등재리스트의 등재언어가 ‘ENG’인 경우, 한국어로 작성된 논문은 인정 불가)",
+          "※ 등재지 언어 기준은 학위청구논문심사원 제출 직전년도 등재리스트를 기준으로 함",
+          "### 3. 저자 구분 (Author Classification)",
+          "- 주저자 또는 교신저자 (본교 소속임을 명시하여야 함)",
+          "### 4. 게재 일자 (Publication Date)",
+          "- 학위청구논문심사원 제출일까지 게재되거나, 게재예정증명서를 제출하여야 함 (게재 예정 년월호 등 게재예정 정보가 명확히 기재되어야 함)",
+          "## 유의사항",
+          "- 특수대학원 및 석사과정 학생은 제출 대상이 아님",
+          "- 논문연구계획서 미제출 시 연구실적물 제출 불가",
+          "- (박사과정) 연구실적물 미제출 시 학위논문 심사 접수 불가",
+          "- 학위논문제출자격시험 면제 신청 시 제출한 자료와 동일한 자료는 제출 불가",
+          "- (일반대학원) 미래(혁신)인재장학생 신청 시 제출한 자료와 동일한 자료는 제출 불가",
+          "- 연구실적물에 본교 소속임이 명시되어야 함"
+        ],
+        "en": [
+          "@Who must submit: Ph.D. students who have submitted their thesis research plan and intend to have their thesis reviewed (master's students do not submit)",
+          "@Submission period: Late April (Spring), late October (Fall)",
+          "## What to submit (upload as one ZIP file)",
+          "- Research output report (Academic Affairs > Research Output > Research Output Report > Register research output)",
+          "- Materials that meet the research output criteria",
+          "## Criteria",
+          "### 1. Indexed Journals",
+          "- Journals indexed in SCIE, SSCI, A&HCI or SCOPUS in your field",
+          "※ Indexing is judged by the index list of the year before you submit your thesis review application",
+          "### 2. Indexed Language",
+          "- Only papers written in a language listed for that index (if the listed language is ‘ENG’, a paper written in Korean is not accepted)",
+          "※ The language requirement is judged by the index list of the year before you submit your thesis review application",
+          "### 3. Author Classification",
+          "- First author or corresponding author (your SEOULTECH affiliation must be stated)",
+          "### 4. Publication Date",
+          "- The paper must be published by the date you submit your thesis review application, or you must submit a certificate of scheduled publication (the scheduled issue, e.g. year and month, must be clearly stated)",
+          "## Notes",
+          "- Students in professional graduate schools and master's students do not submit",
+          "- You cannot submit research output without having submitted your thesis research plan",
+          "- (Ph.D.) Without research output you cannot apply for the thesis review",
+          "- Materials already submitted for a qualifying exam exemption cannot be reused",
+          "- (General Graduate School) Materials already submitted for the Future (Innovation) Talent Scholarship cannot be reused",
+          "- Your SEOULTECH affiliation must be stated on the research output"
+        ]
+      },
+      "files": []
+    },
+    {
+      "id": "s4",
+      "kind": "step",
+      "lane": "common",
+      "icon": "talk",
+      "link": "https://www.seoultech.ac.kr/life/info/graduate/exam",
+      "label": {
+        "ko": "학위자격시험",
+        "en": "Degree Qualifying Exam"
+      },
+      "tagline": {
+        "ko": "구술시험",
+        "en": "Oral exam"
+      },
+      "hover": {
+        "ko": "수료 전 재학중에 응시 가능해요",
+        "en": "You can take it while enrolled, before completion"
+      },
+      "linkLabel": {
+        "ko": "바로가기",
+        "en": "Go to page"
+      },
+      "tip": {
+        "ko": "석사 시험 면제를 받으려면 접수일 전에 게재가 완료돼 있어야 해요.",
+        "en": "To be exempt from the Master's exam, your paper must be published before the application date."
+      },
+      "facts": {
+        "ko": [
+          "3학기 · 18학점 | 응시자격 (논문연구 I · II 제외)",
+          "3월 · 9월 | 접수기간(연 2회 실시)",
+          "구술시험 | 시험 방법"
+        ],
+        "en": [
+          "3 semesters · 18 credits | Eligibility (excluding Thesis Research I · II)",
+          "Mar · Sep | Application period (held twice a year)",
+          "Oral exam | Exam format"
+        ]
+      },
+      "body": {
+        "ko": [
+          "@응시자격: 3개 학기 이상 등록하고 18학점 이상 취득한 자 (논문연구 I, II 제외)",
+          "@학석사연계과정: 2개 학기 이상 등록하고 15학점 이상 취득한 자",
+          "@시험일시: 3, 9월 접수 후 4, 10월 중 연구실 지정일에 실시",
+          "@시험방법: 구술시험",
+          "@ 논문연구계획서 등록: 학사 > 졸업 > 논문 > 등록_논문연구계획서`에 논문연구계획서 반드시 등록",
+          "@ 사진 등록: 학적부에 사진이 없는 경우 원서접수 불가 (통합정보시스템 학사 > 학적 > 나의정보 > 사진변경관리 - ‘조회’ 클릭 - ‘신규’ 클릭 - 사진첨부 클릭-사진 조회-저장)",
+          "## 석사과정 시험 면제제도",
+          "재학 및 수료기간 내에 전공분야의 국내외 학술대회에 논문 1편 이상을 발표하거나, 일반 국제학술지 및 국내 전문학술지에 저자 구분 없이 논문 1편을 게재한 경우 (학위자격시험 접수일 전 게재완료 필)",
+          "* 온라인 등재 포함, 게재완료 증빙"
+        ],
+        "en": [
+          "@Eligibility: Registered for 3 or more semesters and earned 18 or more credits (excluding Thesis Research I and II)",
+          "@Combined B.S.–M.S. program: Registered for 2 or more semesters and earned 15 or more credits",
+          "@Schedule: Apply in March or September; the exam is held in April or October on a date set by your lab",
+          "@Format: Oral exam",
+          "@ Thesis research plan: You must register your thesis research plan under Academic Affairs > Graduation > Thesis > Register_Thesis Research Plan",
+          "@ Photo registration: You cannot apply if your student record has no photo (SUIS System: Academic Affairs > Student Records > My Info > Photo Change Management - click ‘Search’ - click ‘New’ - click Attach Photo - view photo - Save)",
+          "## Master's Exam Exemption",
+          "Master's students are exempt if, during enrollment or the completion period, they present at least one paper at a domestic or international conference in their field, or publish one paper (regardless of author order) in a general international journal or a domestic professional journal (publication must be completed before the exam application date)",
+          "* Online publication counts; proof of publication required"
+        ]
+      },
+      "files": []
+    },
+    {
+      "id": "s5",
+      "kind": "step",
+      "lane": "common",
+      "icon": "thesis",
+      "link": "",
+      "label": {
+        "ko": "학위청구논문",
+        "en": "Degree Thesis"
+      },
+      "tagline": {
+        "ko": "심사 서류 제출 · 논문 심사",
+        "en": "Submit review documents · thesis review"
+      },
+      "linkLabel": {
+        "ko": "바로가기",
+        "en": "Go to page"
+      },
+      "tip": {
+        "ko": "지도교수는 주심이 될 수 없어요. 심사위원 구성 요건을 미리 확인하세요.",
+        "en": "Your advisor cannot serve as committee chair. Check the committee requirements in advance."
+      },
+      "facts": {
+        "ko": [
+          "5월 · 11월 | 접수 시기 (1학기 · 2학기)",
+          "3명 · 5명 | 심사위원 수 (석사 · 박사)",
+          "10만 · 30만 원 | 논문 심사료 (석사 · 박사)"
+        ],
+        "en": [
+          "May · Nov | Submission opens (Spring · Fall)",
+          "3 · 5 | Committee members (Master's · Ph.D.)",
+          "KRW 100k · 300k | Review fee (Master's · Ph.D.)"
+        ]
+      },
+      "body": {
+        "ko": [
+          "@접수 시작: 1학기 5월, 2학기 11월",
+          "@제출 장소: 학과사무실",
+          "@제출 자격: 학위논문제출자격요건 충족자( 수료 요건 충족(당해 학기 충족 예정), 학위자격시험 합격, 연구실적물 제출, 연구윤리교육 이수)",
+          "## 논문 제출 예정자 등록(접수)",
+          "### 1. 학위청구논문 심사원",
+          "- 통합정보시스템 > 학사 > 졸업 > 논문 > 논문심사원출력",
+          "### 2. 학위청구논문 심사위원 추천서",
+          "- ‘통합정보시스템 > 학사 > 졸업 > 논문 > 심사위원등록’에서 출력하여 날인",
+          "- 석사과정: 3명 / 박사과정: 5명",
+          "- 지도교수는 주심 선정 불가",
+          "- 박사과정 심사위원은 반드시 2인 이상의 박사학위 소지자 포함 및 2인 이상의 다른 학과(또는 협동과정) 또는 교외의 전문가 포함",
+          "- 외부 심사위원은 ‘개인정보제공(이용)동의서’ 필수 제출 (서식 [붙임1] 참조)",
+          "### 3. 논문 심사료 입금 증빙자료",
+          "- 송금 영수증, 계좌 캡처화면 등",
+          "- 석사과정: 100,000원 / 박사과정: 300,000원",
+          "- 계좌번호: 국민 073037-04-010919 (서울과학기술대학교)",
+          "- 입금자 표기: 대학원명 앞 두 글자 + 학생명 (예시: 일반홍길동, 철도홍길동, 산업홍길동)",
+          "- 연구윤리 서약서 (서식 [붙임2] 참조)",
+          "  - 자필 서명하여 제출",
+          "### 4. 연구윤리교육 수료증 (출력하여 제출)",
+          "- 2017학년도 입학생부터 필수 ([붙임3] 참조)",
+          "- ‘통합정보시스템 > 학사 > 졸업 > 논문 > 수료증 등록_연구윤리교육(KIRD)’에도 반드시 업로드",
+          "- 교내 ‘대학원생을 위한 연구윤리 비교과 프로그램’을 이수하였을 경우 제출 불요",
+          "- 미이수자는 학교 홈페이지 대학원 공지사항의 ‘논문제출자격 부여를 위한 연구윤리교육 의무 이수 안내’ 게시글 확인",
+          "### 5. 상시 연구활동종사자 안전교육 수료증",
+          "- 일반대학원 공학, 이학계열 학생만 필수 제출",
+          "- 미이수자는 학교 홈페이지 대학원 공지사항의 ‘연구활동종사자 온라인 안전교육 안내’ 게시글 확인 (홈페이지 주소: dnsm.seoultech.ac.kr)",
+          "## 논문 심사 및 결과서 제출",
+          "@논문 심사: 연구실별 진행",
+          "### 논문 심사 결과서 제출",
+          "- 제출 기간: 1학기 6월 중순, 2학기 12월 중순",
+          "- 제출 장소: 소속 학과사무실",
+          "- 제출 서류",
+          "   - 석·박사학위 청구논문 심사 결과서(서식 [붙임7] 참조): 심사위원장 작성",
+          "   - 학위청구논문 표절검사보고서: 논문 심사 시 제출한 표절검사보고서와 동일",
+          "",
+          "### 온라인 학위논문(최종본) 전자파일 제출 및 제출확인서 제출",
+          "-  온라인 학위논문(최종본) 전자파일 제출 : 1학기 7월, 2학기 1월",
+          "     - 도서관 학위논문서버(dCollectiion) 업로드 방법은 도서관 홈페이지 참조 (문의: 02-970-9045)",
+          "- 온라인 제출확인서 서류 제출",
+          "   - 학위논문 온라인 제출확인서: 도서관 학위논문서버 → 업로드 → 출력",
+          "   - 제출 장소: 대학원 행정실(어의관 613호)  "
+        ],
+        "en": [
+          "@Submission opens: May (Spring), November (Fall)",
+          "@Where to submit: Department office",
+          "@Eligibility: Students who meet the thesis submission requirements (course completion requirements met or expected to be met this semester, Degree Qualifying Exam passed, research output submitted, research ethics training completed)",
+          "## Thesis Submission Registration",
+          "### 1. Degree Thesis Review Application",
+          "- SUIS System > Academic Affairs > Graduation > Thesis > Print Thesis Review Application",
+          "### 2. Thesis Review Committee Recommendation Form",
+          "- Print from ‘SUIS System > Academic Affairs > Graduation > Thesis > Register Committee Members’ and stamp it",
+          "- Master's: 3 members / Ph.D.: 5 members",
+          "- Your advisor cannot serve as committee chair",
+          "- A Ph.D. committee must include at least 2 Ph.D. holders and at least 2 experts from another department (or interdisciplinary program) or from outside the university",
+          "- External members must submit the ‘Consent to Provide (Use) Personal Information’ form (see Form [Attachment 1])",
+          "### 3. Proof of Review Fee Payment",
+          "- Transfer receipt, account screenshot, etc.",
+          "- Master's: KRW 100,000 / Ph.D.: KRW 300,000",
+          "- Account: KB Kookmin Bank 073037-04-010919 (Seoul National University of Science and Technology)",
+          "- Depositor name: first two characters of your graduate school name + your name (e.g., 일반홍길동, 철도홍길동, 산업홍길동)",
+          "- Research Ethics Pledge (see Form [Attachment 2])",
+          "  - Sign by hand and submit",
+          "### 4. Research Ethics Training Certificate (print and submit)",
+          "- Required for students admitted from the 2017 academic year ([Attachment 3])",
+          "- Also upload it to ‘SUIS System > Academic Affairs > Graduation > Thesis > Register Certificate_Research Ethics Training (KIRD)’",
+          "- Not required if you completed the on-campus ‘Research Ethics Extracurricular Program for Graduate Students’",
+          "- If not yet completed, see the Graduate School notice ‘Mandatory Research Ethics Training for Thesis Submission Eligibility’ on the university website",
+          "### 5. Safety Training Certificate for Regular Research Personnel",
+          "- Required only for engineering and natural science students in the General Graduate School",
+          "- If not yet completed, see the Graduate School notice ‘Online Safety Training for Research Personnel’ on the university website (site: dnsm.seoultech.ac.kr)",
+          "## Thesis Review & Result Report",
+          "@Thesis review: Conducted by each lab",
+          "### Submitting the Thesis Review Result Report",
+          "- Period: mid-June (Spring), mid-December (Fall)",
+          "- Where: Your department office",
+          "- Documents",
+          "   - Master's/Ph.D. Degree Thesis Review Result Report (see Form [Attachment 7]): completed by the committee chair",
+          "   - Plagiarism check report for the thesis: the same report submitted at the thesis review",
+          "",
+          "### Online Submission of the Final Thesis File & Submission Confirmation",
+          "- Upload the final thesis file online: July (Spring), January (Fall)",
+          "     - For how to upload to the library thesis server (dCollection), see the library website (Tel: 02-970-9045)",
+          "- Submit the online submission confirmation",
+          "   - Online Thesis Submission Confirmation: Library thesis server → Upload → Print",
+          "   - Where: Graduate School Office (Eoui-gwan Rm. 613)"
+        ]
+      },
+      "files": [
+        {
+          "name": "학위 논문 제출 양식.hwp",
+          "path": "files/학위 논문 제출 양식.hwp",
+          "size": 82944
+        }
+      ]
+    }
+  ]
+}

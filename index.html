@@ -178,7 +178,7 @@ a{color:var(--accent)}
 .rule-ic svg{width:19px;height:19px}
 .rule[aria-pressed="true"] .rule-ic{background:linear-gradient(140deg,#0D2660,#1F5AE0 60%,#2FB8EE);border-color:transparent;color:#fff}
 .rule-txt{display:flex;flex-direction:column;gap:1px;min-width:0}
-.rule-k{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.06em;color:var(--accent);line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rule-k{font-family:var(--mono);font-size:10.5px;font-weight:500;letter-spacing:.06em;color:var(--accent);line-height:1.45}
 .rule-nm{font-weight:700;font-size:14px;color:var(--ink);line-height:1.35}
 .rule-tg{display:none}
 .rule-join{display:inline-flex;align-items:center;gap:4px;white-space:nowrap;font-size:11.5px;font-weight:600;color:var(--accent-ink);padding:3px 9px;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
@@ -391,10 +391,12 @@ var ICONS={
  right:P+'<path d="M9 6l6 6-6 6"/></svg>',
  edit:P+'<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg>',
  close:P+'<path d="M6 6l12 12M18 6 6 18"/></svg>',
+ approve:P+'<circle cx="9" cy="8" r="3.4"/><path d="M3 20c0-3.3 2.7-5.6 6-5.6 1.1 0 2.2.2 3.1.7"/><path d="m14.5 17.2 2.2 2.3 4.8-5.5"/></svg>',
+ plan:P+'<rect x="5" y="4.5" width="14" height="16.5" rx="2"/><path d="M9.5 3h5v3.2h-5z"/><path d="M8.5 11h7M8.5 14.5h7M8.5 18h4"/></svg>',
  school:P+'<path d="M3 21h18M5 21V10l7-5 7 5v11"/><path d="M10 21v-5h4v5M9.5 11.5h5"/></svg>',
  info:P+'<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>'
 };
-var ICON_NAMES={cert:'수료증',calendar:'달력',rule:'규정 문서',talk:'구술 · 대화',thesis:'논문',doc:'문서',book:'책',star:'별',cap:'학사모'};
+var ICON_NAMES={cert:'수료증',calendar:'달력',rule:'규정 문서',talk:'구술 · 대화',thesis:'논문',doc:'문서',book:'책',star:'별',cap:'학사모',approve:'승인 · 체크',plan:'연구계획서'};
 function icon(k){return ICONS[k]||ICONS.doc;}
 function spark(c){return '<svg class="spark '+c+'" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0l2.4 9.6L24 12l-9.6 2.4L12 24l-2.4-9.6L0 12l9.6-2.4z"/></svg>';}
 
