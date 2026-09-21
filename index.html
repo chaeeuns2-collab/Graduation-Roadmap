@@ -983,7 +983,7 @@ function initCaps(tries){
 }
 
 if(REPO_MODE){
- fetch('data/content.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})
+ fetch('data/content.json?v='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})
  .then(function(t){saved=fromRepo(JSON.parse(t));state=clone(saved);renderMain();})
  .catch(function(){
   app.innerHTML='<p style="max-width:640px;margin:48px auto;padding-inline:16px;color:var(--ink-2)">내용 파일(data/content.json)을 읽지 못했어요. 최근에 고친 부분의 쉼표(,)와 따옴표(")를 확인해 주세요.<br>The content file (data/content.json) could not be read.</p>';
