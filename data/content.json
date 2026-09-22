@@ -66,9 +66,6 @@
       "kind": "rule",
       "icon": "cert",
       "link": "https://www.seoultech.ac.kr/life/info/graduate/finish",
-      "badge": {
-        "ko": "수료 요건",
-        "en": "Course Completion Requirements"
       },
       "label": {
         "ko": "수료",
@@ -135,10 +132,6 @@
         "ko": "논문 준비 기간 학교시설 이용",
         "en": "Use campus facilities while preparing your thesis"
       },
-      "badge": {
-        "ko": "수료생 선택 사항 · 수료 트랙",
-        "en": "Optional for completed students · Completion Track"
-      },
       "join": {
         "ko": "필수 아님",
         "en": "Not required"
@@ -201,10 +194,6 @@
       "label": {
         "ko": "학과별 내규",
         "en": "Department's Rules"
-      },
-      "tagline": {
-        "ko": "SCI · 우수 국제학술대회(S/A) 논문 총 2편 게재",
-        "en": "Publish a total of 2 papers in SCI journals or top international conferences (S/A)"
       },
       "linkLabel": {
         "ko": "바로가기",
