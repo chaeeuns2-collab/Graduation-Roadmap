@@ -4,8 +4,8 @@
   "mascotImg": "images/technyong.png",
   "page": {
     "eyebrow": {
-      "ko": "SEOULTECH · 일반대학원 인공지능응용학과",
-      "en": "SEOULTECH · Graduate School · Department of Applied Artificial Intelligence"
+      "ko": "SEOULTECH",
+      "en": "SEOULTECH"
     },
     "title": {
       "ko": "대학원 수료 및 졸업 로드맵",
@@ -199,49 +199,33 @@
       "icon": "rule",
       "link": "",
       "label": {
-        "ko": "박사과정 학과 내규",
-        "en": "Ph.D. Department Rules"
+        "ko": "학과별 내규",
+        "en": "Department's Rules"
       },
       "tagline": {
         "ko": "SCI · 우수 국제학술대회(S/A) 논문 총 2편 게재",
         "en": "Publish a total of 2 papers in SCI journals or top international conferences (S/A)"
-      },
-      "badge": {
-        "ko": "박사과정 추가 요건",
-        "en": "Additional Ph.D. requirement"
       },
       "linkLabel": {
         "ko": "바로가기",
         "en": "Go to page"
       },
       "tip": {
-        "ko": "투고 전에 붙임 목록에서 학회가 S/A 등급인지 꼭 확인하세요.",
-        "en": "Before submitting, check the attached list to confirm the conference is S/A grade."
-      },
-      "facts": {
-        "ko": [
-          "총 2편 | SCI · 우수 국제학술대회(S/A) 게재",
-          "주저자 | 공동 1저자 등록도 인정",
-          "2024 | 한국정보과학회 우수학술대회 목록 기준"
-        ],
-        "en": [
-          "2 papers | SCI journals · top international conferences (S/A)",
-          "First author | Co-first authorship also counts",
-          "2024 | Based on the KIISE list of excellent conferences"
-        ]
+        "ko": "학과별 내규를 확인하세요.",
+        "en": "Please check department's rules"
       },
       "body": {
         "ko": [
-          "## 제3장 대학원 학사운영",
-          "### 제9조(졸업)",
+          "## 일반대학원 인공지능응용학과",
+          "### 대학원 학사운영 제9조(졸업)",
           "인공지능응용학과 박사 과정생은 아래의 요건을 만족해야 졸업요건을 충족한 것으로 인정한다.",
           "- ① SCI 및 BK21 Computer Science 분야 *우수 국제학술대회 (S/A 등급 포함) 총 2편 게재",
           "- ② 주저자, 공동 1저자 등록 인정",
           "* 우수 국제학술대회란 2024년 한국정보과학회 우수학술대회 목록에서 S/A 등급을 말함 (붙임 2024년 한국정보과학회 우수 학술대회 목록 참고)"
         ],
         "en": [
-          "## Chapter 3. Graduate Academic Affairs",
-          "### Article 9 (Graduation)",
+          "## Applied Artificial Intelligence",
+          "### Graduate Academic Affairs Article 9 (Graduation)",
           "Ph.D. students in the Department of Applied Artificial Intelligence are deemed to have met the graduation requirements when they satisfy the following.",
           "- ① Publish a total of 2 papers in SCI journals or *top international conferences in the BK21 Computer Science field (S/A grades included)",
           "- ② First authorship and co-first authorship are recognized",
