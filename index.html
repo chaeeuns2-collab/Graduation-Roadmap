@@ -580,7 +580,7 @@ function laneIdx(l){var a=[];state.steps.forEach(function(s,i){if(!isRule(s)&&la
 function stepIdx(){return laneIdx('detour').concat(laneIdx('common'));}
 function ruleIdx(){var a=[];state.steps.forEach(function(s,i){if(isRule(s))a.push(i);});return a;}
 function stepTag(i){
- var s=state.steps[i];if(isRule(s))return esc(F(s,'badge')||T('badgeDef'));
+ var s=state.steps[i];if(isRule(s))return s.badge?esc(F(s,'badge')):'';
  if(laneOf(s)==='detour')return 'ROUTE B · '+pad(laneIdx('detour').indexOf(i)+1);
  var c=laneIdx('common');return 'STEP '+pad(c.indexOf(i)+1)+' <span>/ '+pad(c.length)+'</span>';
 }
@@ -621,8 +621,8 @@ function road(){
   var s=st[i];
   return '<button type="button" class="rule" id="tab-'+i+'" data-step="'+i+'" aria-controls="panel" aria-pressed="'+(i===sel)+'">'+
    '<span class="rule-ic">'+icon(s.icon)+'</span>'+
-   '<span class="rule-txt"><span class="rule-k">'+esc(F(s,'badge')||T('badgeDef'))+'</span><span class="rule-nm">'+esc(F(s,'label'))+'</span>'+(s.tagline?'<span class="rule-tg">'+esc(F(s,'tagline'))+'</span>':'')+'</span>'+
-   '<span class="rule-join">'+(s.join?ICONS.info:ICONS.cap)+'<span>'+esc(F(s,'join')||T('joinDef'))+'</span></span></button>';
+   '<span class="rule-txt">'+(s.badge?'<span class="rule-k">'+esc(F(s,'badge'))+'</span>':'')+'<span class="rule-nm">'+esc(F(s,'label'))+'</span>'+(s.tagline?'<span class="rule-tg">'+esc(F(s,'tagline'))+'</span>':'')+'</span>'+
+   (s.join?'<span class="rule-join">'+ICONS.info+'<span>'+esc(F(s,'join'))+'</span></span>':'')+'</button>';
  }).join('')+'</div>':'';
  return '<section class="road-card" id="road-card" aria-labelledby="road-h"'+(route?' data-route="'+route+'"':'')+'><div class="road-head"><h2 id="road-h">'+T('road')+'</h2>'+routes+'</div>'+
   '<div class="flow" id="flow" role="tablist" aria-label="'+T('flowAria')+'" style="--cols:'+cols+'"><svg class="wires" aria-hidden="true"></svg>'+h+
@@ -710,7 +710,7 @@ function panel(){
  }
  if(s.tip)side+='<div class="tip"><div class="mini">'+mascotHTML({wave:false})+'</div><div><b>'+T('tip')+'</b><p>'+esc(F(s,'tip'))+'</p></div></div>';
  return '<section class="panel'+(side?'':' solo')+'" id="panel" role="tabpanel" aria-labelledby="tab-'+sel+'"><article class="p-main">'+
-  '<header class="p-head"><span class="p-icon">'+icon(s.icon)+'</span><div><p class="p-step">'+stepTag(sel)+'</p><h2>'+esc(label)+'</h2>'+(s.tagline?'<p class="p-tg">'+esc(F(s,'tagline'))+'</p>':'')+routeNote+'</div></header>'+
+  '<header class="p-head"><span class="p-icon">'+icon(s.icon)+'</span><div>'+(stepTag(sel)?'<p class="p-step">'+stepTag(sel)+'</p>':'')+'<h2>'+esc(label)+'</h2>'+(s.tagline?'<p class="p-tg">'+esc(F(s,'tagline'))+'</p>':'')+routeNote+'</div></header>'+
   kf+'<div class="md">'+renderBody(F(s,'body'))+'</div><nav class="pager" aria-label="'+T('stepsNav')+'">'+prev+next+'</nav></article>'+
   (side?'<aside class="p-side" aria-label="'+T('sideAria')+'">'+side+'</aside>':'')+'</section>';
 }
