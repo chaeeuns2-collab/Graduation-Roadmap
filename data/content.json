@@ -303,8 +303,8 @@
         "en": "Without it you cannot register research output or apply for the thesis review"
       },
       "tip": {
-        "ko": "제출 후에는 수정할 수 없어요. 제목까지 확인하고 올리세요.",
-        "en": "You cannot edit the plan after submitting it - check the title carefully before uploading."
+        "ko": "제출 후에는 수정할 수 없어요.",
+        "en": "You cannot edit the plan after submitting it."
       },
       "facts": {
         "ko": [
