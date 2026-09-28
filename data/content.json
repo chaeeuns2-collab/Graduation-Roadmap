@@ -365,6 +365,10 @@
       "label": {
         "ko": "학위자격시험",
         "en": "Degree Qualifying Exam"
+           },
+      "hover": {
+        "ko": "미제출 시 논문 심사 접수와 연구실적물 등록(박사)이 안 돼요",
+        "en": "Without it you cannot register research output or apply for the thesis review"
       },
       "linkLabel": {
         "ko": "바로가기",
